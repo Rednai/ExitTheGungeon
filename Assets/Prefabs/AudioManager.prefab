@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &824157937613032890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7480582813582328175}
+  - component: {fileID: 1159359563756012356}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7480582813582328175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824157937613032890}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.24555118, y: 0.68839115, z: -146.70218}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1159359563756012356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824157937613032890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa608ebfeb845b048b562add5786aa75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Ak47
+    clip: {fileID: 8300000, guid: 5b8ec1a74a0026e4c80e494fc8ccf24a, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Glock
+    clip: {fileID: 8300000, guid: 84e02cea43764da46b20e099ac51b820, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Awp
+    clip: {fileID: 8300000, guid: 207868cc6d9f6894b88860ed6ab25d77, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Reload
+    clip: {fileID: 8300000, guid: c4872180dc28cab4ca92bf7fa1ba7e5e, type: 3}
+    volume: 0.9
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Roll
+    clip: {fileID: 8300000, guid: d15d9f5d1226b7247853246401c4f1cf, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Death
+    clip: {fileID: 8300000, guid: d041ceaa40a87524e813f21b409d9fbf, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Hit
+    clip: {fileID: 8300000, guid: 5153d92c80f968a4c987d5f730d7749e, type: 3}
+    volume: 0.9
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Menu
+    clip: {fileID: 8300000, guid: 1b7cbb8d2dfdcaa4f8d2ca9463730202, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: MenuLoop
+    clip: {fileID: 8300000, guid: d690badfa35444145a15e465f4192fd6, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Game
+    clip: {fileID: 8300000, guid: 1a63db7f1c55deb49aabef4b787d1915, type: 3}
+    volume: 0.9
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1

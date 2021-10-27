@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Npc
+  - Pickable
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Npc
+  - Gun
+  - Obstacle
+  - Pickable
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Npc
+    uniqueID: 2324907365
+    locked: 0
+  - name: Player
+    uniqueID: 3749885783
+    locked: 0
+  - name: Gun
+    uniqueID: 709996669
+    locked: 0
+  - name: Pickable
+    uniqueID: 3364918429
+    locked: 0
