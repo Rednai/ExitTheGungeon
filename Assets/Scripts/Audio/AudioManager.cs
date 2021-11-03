@@ -55,7 +55,8 @@ public class AudioManager : MonoBehaviour
     {
         foreach (Sound s in sounds)
         {
-            s.source.Stop();
+            if (s.source != null)
+                s.source.Stop();
         }
     }
 }
